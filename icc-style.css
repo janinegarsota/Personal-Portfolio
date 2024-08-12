@@ -12,9 +12,9 @@
         }
 
         :root {
-            --color-text: white;
+            --color-text: #F4F4F4;
             --hover-color: #CCB7E3;
-            --neon-box-shadow: 0 0 .5rem white;
+            --neon-box-shadow: 0 0 .5rem #F4F4F4;
             --index: calc(1vw + 1vh);
         }
 
@@ -24,7 +24,7 @@
         }
 
         ::-webkit-scrollbar-track {
-            background: black;
+            background: #050608;
         }
 
         ::-webkit-scrollbar-thumb {
@@ -36,11 +36,11 @@
             font-family: "Outfit", sans-serif;
             overflow-x: hidden;
             margin: 0;
-            color: black;
+            color: #050608;
         }
 
         a {
-            color: white;
+            color: #F4F4F4;
         }
 
         video {
@@ -142,7 +142,7 @@
             letter-spacing: 1px;
             transition: all .3 ease;
             white-space: nowrap;
-            text-shadow: 3px 3px 4px black;
+            text-shadow: 3px 3px 4px #050608;
             transition: all 200ms ease-in-out;
         }
 
@@ -153,7 +153,7 @@
         }
 
         .mainbtn:hover, .resume:hover {
-            box-shadow: 0 3px 9px white;
+            box-shadow: 0 3px 9px #F4F4F4;
         }
 
         #menu-icon {
@@ -174,7 +174,7 @@
             justify-content: center;
             height: 100vh;
             text-align: center;
-            color: white;
+            color: #F4F4F4;
             width: 100%;
             padding: 100px 320px 20px 320px;
             margin-top: -30px;
@@ -184,19 +184,19 @@
             font-size: calc(var(--index)*3);
             margin-bottom: 10px;
             font-weight: 660;
-            text-shadow: 6px 6px 6px black;
-            color: white;
+            text-shadow: 6px 6px 6px #050608;
+            color: #F4F4F4;
         }
 
         .home-text h1 span {
-            color: white;
+            color: #F4F4F4;
         }
 
         .home-text p {
             font-size: calc(var(--index)*1);
             margin-bottom: 1rem;
             font-weight: 700;
-            text-shadow: 3px 3px 3px black;
+            text-shadow: 3px 3px 3px #050608;
         }
 
         .home-text .mainbtn {
@@ -231,7 +231,7 @@
             background-position: center;
             background-size: cover;
             border-radius: 10px;
-            color: white;
+            color: #F4F4F4;
             z-index: 2;
             margin: 2rem .5rem;
             display: flex;
@@ -243,7 +243,7 @@
             width: 120px;
             margin: -4rem auto 0 auto;
             animation: floating 6s ease-in-out infinite;
-            filter: drop-shadow(0 0 .3rem white);
+            filter: drop-shadow(0 0 .3rem #F4F4F4);
             border-radius: 100%;
         }
 
@@ -264,7 +264,7 @@
         }
 
         .soc-box p {
-            color: white;
+            color: #F4F4F4;
             line-height: 1.2rem;
             font-size: 1rem;
         }
@@ -291,7 +291,7 @@
             background-color: rgba(0, 0, 0, 0.7);
             border-radius: 10px; 
             padding: 20px 30px 25px;
-            color: white;
+            color: #F4F4F4;
         }
 
         .text-about h3 {
@@ -311,7 +311,7 @@
         }
 
         .text-about li {
-            color: white;
+            color: #F4F4F4;
             line-height: 1.5rem;
             position: relative;
             padding-left: 20px; 
@@ -321,7 +321,7 @@
             content: '\2022'; 
             position: absolute;
             left: 0;
-            color: white; 
+            color: #F4F4F4; 
         }
 
         #education .container .soc-box {
@@ -337,7 +337,7 @@
             background-position: center;
             background-size: cover;
             border-radius: 10px;
-            color: white;
+            color: #F4F4F4;
             z-index: 2;
             margin: 2rem .5rem;
             position: relative;
@@ -369,10 +369,10 @@
         
         #portfolio .home-text, #socmed .home-text {
             text-align: center;
-            color: white;
+            color: #F4F4F4;
             font-weight: 800;
             font-size:40px;
-            text-shadow: 3px 10px 9px black;
+            text-shadow: 3px 10px 9px #050608;
             margin-bottom: 20px;
         }
 
@@ -393,11 +393,10 @@
         }
 
         footer {
-            
             margin-top: 20px; 
             background: rgba(0, 0, 0, 0.7);
-            color: white;
-            border-top: 1px solid black;
+            color: #F4F4F4;
+            border-top: 1px solid #050608;
             width: 100%;
             max-width: 100%;
         }
@@ -468,9 +467,9 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.7);
-            color: white;
+            color: #F4F4F4;
             display: flex;
-            text-shadow: 2px 2px 2px black;
+            text-shadow: 2px 2px 2px #050608;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -501,7 +500,7 @@
         }
 
         #home .home-text p{
-            text-shadow: 10px -1px 10px black;
+            text-shadow: 10px -1px 10px #050608;
             font-style: italic;
             padding: 10px;
         }
@@ -512,8 +511,8 @@
             background: rgba(0, 0, 0, 0.7);
             padding: 30px;
             margin: 0px;
-            color: white;
-            border-top: 1px solid black;
+            color: #F4F4F4;
+            border-top: 1px solid #050608;
         }
 
         .container-foot {
@@ -557,7 +556,7 @@
         }
 
         .quick-menu a {
-            color: white;
+            color: #F4F4F4;
             text-decoration: none;
             font-weight: 500;
             transition: color 0.1s ease-in-out; 
@@ -776,10 +775,7 @@
             header {
                 padding: 10px 20px 10px 40px;
             }
-            
-
         }
-    }
 
 /*end*/
 
